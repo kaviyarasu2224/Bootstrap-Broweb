@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+#navbar {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.6)),url(1.avif);
+    background-position: center;
+    background-size: cover;
+}
+.section h1{
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60PX;
+    letter-spacing: 5PX;
+    text-shadow: 0PX 0pX 10PX  rgb(247, 59, 2);  
+}
+.section p{
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20PX;
+    letter-spacing: 1PX;
+   
+}
+.section .input-group{
+    width: 30%;
+    height: 20px;
+    border: none;
+   
+} 
+.section .input-group .btn{
+        background-color: rgb(247, 59, 2) !important;
+        border: none;
+}
